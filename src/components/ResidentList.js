@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { List, ListItem, ListItemText, Typography } from '@mui/material';
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography, Paper } from '@mui/material';
 
 const ResidentList = ({ residents }) => {
   const [residentData, setResidentData] = useState([]);
@@ -16,20 +16,30 @@ const ResidentList = ({ residents }) => {
 
   return (
     <div>
-      <Typography variant="subtitle1" gutterBottom>
-        Notable Residents:
-      </Typography>
+      
       {residentData.length > 0 ? (
-        <List>
-          {residentData.map((resident) => (
-            <ListItem key={resident.name}>
-              <ListItemText
-                primary={resident.name}
-                secondary={`${resident.height}, ${resident.mass}, ${resident.gender}`}
-              />
-            </ListItem>
-          ))}
-        </List>
+        <TableContainer component={Paper}>
+          <Table>
+            <TableHead>
+              <TableRow>
+                <TableCell>Name</TableCell>
+                <TableCell>Height</TableCell>
+                <TableCell>Mass</TableCell>
+                <TableCell>Gender</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {residentData.map((resident) => (
+                <TableRow key={resident.name}>
+                  <TableCell>{resident.name}</TableCell>
+                  <TableCell>{resident.height}</TableCell>
+                  <TableCell>{resident.mass}</TableCell>
+                  <TableCell>{resident.gender}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
       ) : (
         <Typography variant="body2" color="textSecondary">
           None

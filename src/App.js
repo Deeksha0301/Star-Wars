@@ -17,7 +17,7 @@ const App = () => {
     const data = await response.json();
 
     setPlanets(data.results);
-    setTotalPages(Math.ceil(data.count / 10)); // Assuming 10 planets per page
+    setTotalPages(Math.ceil(data.count / 10)); 
   };
 
   const handlePageChange = (newPage) => {

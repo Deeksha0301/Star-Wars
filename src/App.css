@@ -17,36 +17,32 @@ body::before {
   z-index: -1;
   background-image: url('https://wallpapers.com/images/hd/star-wars-galaxy-of-heroes-cover-j1fucmpgrjmxh2za.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Optional: Fixed background */
-  filter: blur(9px); /* Adjust the value to control the blur intensity */
+  background-attachment: fixed;
+  filter: blur(9px);
 }
 
-/* ... existing styles ... */
-
+/* Global Styles */
 
 .app {
   max-width: 800px;
-  margin: auto;
+  margin: 50px auto; 
   padding: 20px;
   text-align: center;
-  transition: max-width 0.5s, margin 0.5s, padding 0.5s, text-align 0.5s;
+  background-color: rgba(0, 0, 0, 0.8); 
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); 
+  transition: max-width 0.5s, margin 0.5s, padding 0.5s, text-align 0.5s, background-color 0.5s;
 }
 
 .logo {
   display: block;
-  margin: 0 auto;
-  max-width: 100%;
+  margin: 0 auto 20px; 
+  max-width: 50%;
   height: auto;
   border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
 }
 
-.app {
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
-  text-align: center;
-  transition: max-width 0.5s, margin 0.5s, padding 0.5s, text-align 0.5s;
-}
 
 h1 {
   color: #ffea00;
@@ -54,12 +50,16 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* Planets List */
+
 .planets-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 20px;
 }
+
+/* Planet Card */
 
 .planet-card {
   width: 300px;
@@ -69,15 +69,15 @@ h1 {
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 234, 0, 0.7); /* Black and yellow glow effect */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 234, 0, 0.7);
 }
 
 .planet-card:hover {
   transform: scale(1.05);
-  /* background-color: #555; */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 234, 0, 0.9); /* Enhanced glow on hover */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 234, 0, 0.9);
 }
 
+/* Card Content */
 
 .card-content {
   padding: 16px;
@@ -86,6 +86,8 @@ h1 {
 .card-content > * {
   margin-bottom: 10px;
 }
+
+/* Pagination Controls */
 
 .pagination-controls {
   margin-top: 20px;
@@ -106,9 +108,13 @@ h1 {
   transition: background-color 0.3s, color 0.3s;
 }
 
+/* List Item */
+
 .list-item {
   color: #ffffff;
 }
+
+/* Resident List */
 
 .resident-list {
   margin-top: 10px;
@@ -120,8 +126,75 @@ h1 {
   transition: color 0.3s;
 }
 
+/* Responsive Styles */
+
 @media (max-width: 600px) {
   .planet-card {
     width: 100%;
   }
+}
+
+/* Modal Content */
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 80%;
+  display: flex;
+  border: 2px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #000000;
+}
+
+.modal-content .left-side,
+.modal-content .right-side {
+  flex: 1;
+  padding: 20px;
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+}
+
+.modal-content .row-info {
+  margin-bottom: 15px;
+}
+
+.modal-content .table-container {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* Notable Residents Table */
+
+.modal-content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.modal-content th, .modal-content td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.modal-content th {
+  background-color: #f5f5f5;
+}
+
+.modal-content button {
+  bottom: 0;
+}
+
+/* Clearfix to prevent collapse of container with floated elements */
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
 }
