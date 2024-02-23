@@ -1,70 +1,61 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Star Wars Planets Directory
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Welcome to the Star Wars Planets Directory, a web application designed to provide an immersive exploration of planets in the Star Wars universe. Leveraging the Star Wars API (SWAPI), this project not only displays essential information about each planet but also introduces a visually appealing and responsive user interface. Developed with React.js and styled using Material-UI, the directory offers a seamless and engaging experience for Star Wars enthusiasts.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Planets Directory
+   - Utilizes the SWAPI to fetch and display detailed information about planets.
+   - Each planet is showcased in a distinctive card, featuring key attributes such as name, climate, population, and terrain.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Residents Display
+   - Within each planet's card, provides a list of notable residents with details including name, height, mass, and gender.
 
-### `npm test`
+### 3. Pagination Mechanism
+   - Implements a user-friendly pagination system for easy navigation through the extensive list of planets.
+   - Utilizes the "next" URL provided by SWAPI for fetching additional pages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4. Styling and Responsiveness
+   - Incorporates CSS and Material-UI to create a visually appealing, clean, and responsive design.
+   - Modern layout techniques, including Flexbox and Grid, ensure a consistent experience across various devices.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React.js:** The front-end library used for building the interactive user interface.
+- **Material-UI:** A popular React UI framework for designing consistent and responsive components.
+- **SWAPI (Star Wars API):** Provides data about the Star Wars universe, enabling integration into the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup
 
-### `npm run eject`
+1. **Clone the repository:**
+   ```bash
+   git clone https://https://github.com/Deeksha0301/Star-Wars
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
-## Learn More
+2. **Open your browser and go to:**
+   [http://localhost:3000](http://localhost:3000)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot 1](/screenshots/screenshot1.png)
+<!-- Add more screenshots if needed -->
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
