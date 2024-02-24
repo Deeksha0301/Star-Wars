@@ -189,6 +189,7 @@ h1 {
 
 .modal-content button {
   bottom: 0;
+  
 }
 
 /* Clearfix to prevent collapse of container with floated elements */
@@ -216,3 +217,19 @@ h1 {
 ::-webkit-scrollbar-thumb:hover {
   background: yellow;
 }
+
+
+
+.planet-card button{
+  background-color: #ffea00;
+  color: #3f51b5;
+}
+.planet-card button:hover {
+  background-color: #3f51b5; /* Blue color */
+  color: yellow;
+  box-shadow: 0 0 10px yellow, 0 0 15px #3f51b5;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+
+
