@@ -2,6 +2,7 @@
 # Star Wars Planets Directory
 
 ![Untitled design](https://github.com/Deeksha0301/Star-Wars/assets/92042650/353a9999-9b47-46f3-b894-f15aa74ab3af)
+![Untitled design (3)](https://github.com/Deeksha0301/Star-Wars/assets/92042650/d5aa3d80-f227-499e-b4b0-d1d66810ed36)
 
 
 ## Overview
@@ -64,8 +65,9 @@ Vercel makes the website a bit slow, so please excuse it.
 
 
 
+https://github.com/Deeksha0301/Star-Wars/assets/92042650/45a9332b-c4df-4d91-89d6-dc53e07afeac
 
-https://github.com/Deeksha0301/Star-Wars/assets/92042650/a3af93fc-6554-48bc-a420-ad7e36ad1fcd
+
 
 
 
