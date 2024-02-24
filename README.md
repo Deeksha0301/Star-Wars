@@ -56,7 +56,7 @@ Welcome to the Star Wars Planets Directory, a web application designed to provid
    [http://localhost:3000](http://localhost:3000)
 
 ## Deloyed on Vercel
-
+https://star-wars-topaz-five.vercel.app/
 
 ## Video
 
