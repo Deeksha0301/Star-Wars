@@ -1,6 +1,9 @@
 
 # Star Wars Planets Directory
 
+![Untitled design](https://github.com/Deeksha0301/Star-Wars/assets/92042650/353a9999-9b47-46f3-b894-f15aa74ab3af)
+
+
 ## Overview
 
 Welcome to the Star Wars Planets Directory, a web application designed to provide an immersive exploration of planets in the Star Wars universe. Leveraging the Star Wars API (SWAPI), this project not only displays essential information about each planet but also introduces a visually appealing and responsive user interface. Developed with React.js and styled using Material-UI, the directory offers a seamless and engaging experience for Star Wars enthusiasts.
@@ -52,9 +55,16 @@ Welcome to the Star Wars Planets Directory, a web application designed to provid
 2. **Open your browser and go to:**
    [http://localhost:3000](http://localhost:3000)
 
-## Screenshots
+## Video
 
 
-![Untitled video - Made with Clipchamp](https://github.com/Deeksha0301/Star-Wars/assets/92042650/82fc74e7-96ac-4569-b037-4e09e606459b)
+
+![Untitled video - Made with Clipchamp (2)](https://github.com/Deeksha0301/Star-Wars/assets/92042650/29014eff-506c-4938-b6fc-b2f65613ce6d)
+
+
+
+
+
+
 
 
