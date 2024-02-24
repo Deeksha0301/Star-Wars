@@ -58,6 +58,8 @@ Welcome to the Star Wars Planets Directory, a web application designed to provid
 ## Deloyed on Vercel
 https://star-wars-topaz-five.vercel.app/
 
+Vercel makes the website a bit slow, so please excuse it.
+
 ## Video
 
 
