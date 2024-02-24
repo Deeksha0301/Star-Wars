@@ -54,8 +54,7 @@ Welcome to the Star Wars Planets Directory, a web application designed to provid
 
 ## Screenshots
 
-![Screenshot 1](/screenshots/screenshot1.png)
-<!-- Add more screenshots if needed -->
 
+![Untitled video - Made with Clipchamp](https://github.com/Deeksha0301/Star-Wars/assets/92042650/82fc74e7-96ac-4569-b037-4e09e606459b)
 
 
