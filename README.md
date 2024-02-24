@@ -55,11 +55,15 @@ Welcome to the Star Wars Planets Directory, a web application designed to provid
 2. **Open your browser and go to:**
    [http://localhost:3000](http://localhost:3000)
 
+## Deloyed on Vercel
+
+
 ## Video
 
 
 
-![Untitled video - Made with Clipchamp (2)](https://github.com/Deeksha0301/Star-Wars/assets/92042650/29014eff-506c-4938-b6fc-b2f65613ce6d)
+
+https://github.com/Deeksha0301/Star-Wars/assets/92042650/a3af93fc-6554-48bc-a420-ad7e36ad1fcd
 
 
 
